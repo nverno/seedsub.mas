@@ -1,0 +1,14 @@
+Package: seedsub.mas
+Title: Master files for seedling/substrate data from Mt Moosilauke
+Version: 0.0.0.9000
+Authors@R: person("Noah", "Peart", email = "noah.v.peart@gmail.com", role = c("aut", "cre"))
+Description: This package just contains the master files for seedling and
+    substrate data. It also has some simple scripts to retrieve them and some
+    minimal documentation.
+Depends:
+    R (>= 3.2.0)
+License: GPL-2
+LazyData: true
+Imports:
+    data.table
+RoxygenNote: 5.0.1

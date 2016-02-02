@@ -1,0 +1,58 @@
+##' Contour substrate data
+##'
+##' @format An object of class \code{data.table} (inherits from
+##'   \code{data.frame}) with 352 rows and 35 columns.
+##' \itemize {
+##'     \item CENS: "double" variable with 4 unique values in the range [1989, 2003], 0 NA values.
+##'     \item CONTNAM: "character" with 11 unique values and 0 NA values.
+##'     \tabular{rrrrrrrrrrr}{
+##'     \strong{HE1080} \tab \strong{HE140} \tab \strong{HE460} \tab \strong{HW400} \tab \strong{HW600} \tab \strong{HW620} \tab \strong{LE1860} \tab \strong{LW1900} \tab \strong{ME2020} \tab \strong{MW1580} \tab \strong{MW1600}\cr
+##'     34 \tab 6 \tab 21 \tab 19 \tab 4 \tab 15 \tab 65 \tab 82 \tab 59 \tab 41 \tab 6
+##'     }
+##'     \item STPACE: "double" variable with 70 unique values in the range [0, 2000], 0 NA values.
+##'     \item SGDSP: "character" with 25 unique values and 0 NA values.
+##'     \item QPOS: "double" variable with 36 unique values in the range [1, 35], 87 NA values.
+##'     \item BLA5: "double" variable with 13 unique values in the range [0, 75], 0 NA values.
+##'     \item BLD5: "double" variable with 7 unique values in the range [0, 10], 0 NA values.
+##'     \item BSOIL: "double" variable with 8 unique values in the range [0, 40], 0 NA values.
+##'     \item RCK: "double" variable with 9 unique values in the range [0, 15], 24 NA values.
+##'     \item WATER: "double" variable with 5 unique values in the range [0, 45], 24 NA values.
+##'     \item WDG5: "double" variable with 15 unique values in the range [0, 30], 61 NA values.
+##'     \item WDG1: "double" variable with 11 unique values in the range [0, 10], 291 NA values.
+##'     \item MSSG: "double" variable with 28 unique values in the range [0, 95], 0 NA values.
+##'     \item TIPA: "double" variable with 5 unique values in the range [0, 20], 48 NA values.
+##'     \item STPA: "double" variable with 9 unique values in the range [0, 15], 48 NA values.
+##'     \item LITT: "double" variable with 70 unique values in the range [3, 100], 0 NA values.
+##'     \item LITM: "double" variable with 56 unique values in the range [0, 100], 85 NA values.
+##'     \item LITC: "double" variable with 39 unique values in the range [0, 99], 85 NA values.
+##'     \item LITD: "double" variable with 18 unique values in the range [0, 100], 85 NA values.
+##'     \item WDA5: "double" variable with 16 unique values in the range [0, 45], 109 NA values.
+##'     \item WDA1: "double" variable with 12 unique values in the range [0, 15], 291 NA values.
+##'     \item MSWDA5: "double" variable with 10 unique values in the range [0, 15], 109 NA values.
+##'     \item MSWDA1: "double" variable with 6 unique values in the range [0, 10], 291 NA values.
+##'     \item ASPCL: "character" with 2 unique values and 0 NA values.
+##'     \tabular{rr}{
+##'     \strong{E} \tab \strong{W}\cr
+##'     185 \tab 167
+##'     }
+##'     \item ELEVCL: "character" with 3 unique values and 0 NA values.
+##'     \tabular{rrr}{
+##'     \strong{H} \tab \strong{L} \tab \strong{M}\cr
+##'     99 \tab 147 \tab 106
+##'     }
+##'     \item SEASON: "character" with 2 unique values and 0 NA values.
+##'     \tabular{rr}{
+##'     \strong{""} \tab \strong{Summer}\cr
+##'     328 \tab 24
+##'     }
+##'     \item DATE: 
+##'     \item LITCRCK: "double" variable with 3 unique values in the range [0, 5], 328 NA values.
+##'     \item LITMRCK: "double" variable with 4 unique values in the range [0, 60], 328 NA values.
+##'     \item MSRCK: "double" variable with 8 unique values in the range [0, 75], 328 NA values.
+##'     \item MSBLA5: "double" variable with 3 unique values in the range [0, 4], 328 NA values.
+##'     \item MSWDG5: "double" variable with 6 unique values in the range [0, 15], 328 NA values.
+##'     \item SUMG: "double" variable with 18 unique values in the range [77, 120], 0 NA values.
+##'     \item SUMA: "double" variable with 25 unique values in the range [99, 145], 48 NA values.
+##'     \item CORRECT: "double" variable with 3 unique values in the range [1, 2], 340 NA values.
+##' }
+"submas99c"
