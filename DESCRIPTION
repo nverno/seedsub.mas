@@ -12,3 +12,9 @@ LazyData: true
 Imports:
     data.table
 RoxygenNote: 5.0.1
+Collate:
+    'seedsub.mas.R'
+    'seesapmas11.R'
+    'submas99c.R'
+    'trseedmas11.R'
+    'trsubmas11c.R'
