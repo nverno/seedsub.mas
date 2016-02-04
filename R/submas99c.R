@@ -2,7 +2,7 @@
 ##'
 ##' @format An object of class \code{data.table} (inherits from
 ##'   \code{data.frame}) with 352 rows and 35 columns.
-##' \itemize {
+##' \itemize{
 ##'     \item CENS: "double" variable with 4 unique values in the range [1989, 2003], 0 NA values.
 ##'     \item CONTNAM: "character" with 11 unique values and 0 NA values.
 ##'     \tabular{rrrrrrrrrrr}{

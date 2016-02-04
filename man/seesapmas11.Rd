@@ -6,7 +6,7 @@
 \title{Contour seedling data}
 \format{An object of class \code{data.table} (inherits from
   \code{data.frame}) with 6701 rows and 167 columns.
-\itemize {
+\itemize{
     \item CONTNAM: Contour name (9 unique values)
     \tabular{rrrrrrrrr}{
     \strong{HE1080} \tab \strong{HE140} \tab \strong{HE460} \tab \strong{HW400} \tab \strong{HW620} \tab \strong{LE1860} \tab \strong{LW1900} \tab \strong{ME2020} \tab \strong{MW1580}\cr

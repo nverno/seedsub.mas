@@ -6,7 +6,7 @@
 \title{Transect seedling data}
 \format{An object of class \code{data.table} (inherits from
   \code{data.frame}) with 751 rows and 61 columns.
-\itemize {
+\itemize{
     \item TRAN: "character" with 9 unique values and 0 NA values.
     \tabular{rrrrrrrrr}{
     \strong{E320} \tab \strong{E330} \tab \strong{E334} \tab \strong{E335} \tab \strong{S344} \tab \strong{W32} \tab \strong{W46} \tab \strong{W60} \tab \strong{W70}\cr
